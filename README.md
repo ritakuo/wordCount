@@ -20,6 +20,7 @@
 5. Create a EMR cluster, choose EMR version that uses hadoop version 2.7.3 (to use a different hadoop version, change the pom.xml)
 6. After EMR provision finish, add a step for custom jar
 - for JAR location, point to the jar in the s3 bucket
-- for argument: s3://<your-bucket>/<your-input-file>.txt s3://<your-bucket>/out
+- for argument: 
+    s3://<your-bucket>/<your-input-file>.txt s3://<your-bucket>/out
 7. check output on s3 folder
 
