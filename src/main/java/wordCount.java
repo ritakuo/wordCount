@@ -16,11 +16,6 @@ import java.util.StringTokenizer;
 
 import static org.apache.hadoop.metrics2.impl.MsInfo.Context;
 
-/**
- * Created by ritakuo on 1/23/19.
- * https://www.youtube.com/watch?v=G6kQ14AAzXQ
- *
- */
 public class wordCount {
     //MR infra will call this class and pass in text
     public static class TokenizerMapper extends Mapper<Object, Text, Text, IntWritable>{
